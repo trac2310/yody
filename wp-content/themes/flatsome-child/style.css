@@ -1,0 +1,177 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+}
+#top-bar {
+	min-height: 48px;
+}
+.search-field {
+	width: 400px !important;
+	height: 40px !important;
+	border-top-left-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+}
+button[class="ux-search-submit submit-button secondary button icon mb-0"] {
+	width: 85px;
+	height: 40px;
+	background-color: #fcaf17;
+	border-top-right-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+}
+#logo {
+	width: 80px !important;
+}
+
+.link-map, .link-phone {
+	font-size: 16px;
+	color: #000;
+	font-weight: 600;
+}
+
+.header-menu-book {
+	font-size: 16px;
+}
+.link-map span {
+	color: #11006F;
+	font-weight: 600;
+}
+
+.header-menu-map {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.header-menu-phone {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.header-menu-book {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.header-menu-book span{
+	font-weight: 600;
+	color: #11006F;
+}
+
+.text-free {
+	font-weight: 600;
+	color: #000;
+	width: 40px;
+	background-color: #FCAF17;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+.link-phone {
+	color: #11006F;
+}
+.header-cart-title {
+	color: #11006F;
+}
+.header-account-title {
+	color: #11006F;
+}
+
+#menu-item-32 a{
+	color: #CD151C !important;
+	font-weight: 600 !important;
+}
+#menu-item-32 a::before {
+	display: none;
+	
+}
+ul[class="nav header-nav header-bottom-nav nav-left  nav-line-bottom nav-size-medium nav-uppercase"] {
+	gap: 10px;
+}
+ul[class="nav header-nav header-bottom-nav nav-left  nav-line-bottom nav-size-medium nav-uppercase"] a{
+	font-size: 16px;
+}
+
+.header-bottom {
+	background-color: transparent !important;
+}
+
+#masthead {
+	background-image: url('http://localhost/yody/wp-content/uploads/2023/07/background-header.webp');
+	background-size: cover;
+}
+#wide-nav{
+	background-image: linear-gradient(#fefefe, #fff);
+	background-size: cover;
+}
+.page-wrapper {
+	padding-top: 0;
+}
+
+.text-home-sale{
+	font-size: 36px;
+	background: #FCAF17 !important;
+	color: #fff;
+	border-radius: 15px;
+}
+
+.text-home-sale p {
+	margin-top: 0px !important;
+}
+
+.image-sale-home img {
+	width: 90px;
+	height: 90px;
+}
+.image-sale-home p {
+	font-size: 16px;
+	color: #000;
+	font-weight: 600;
+}
+.name-tab-home {
+	font-weight: 600;
+}
+.image-tab-home  img {
+	width: 90px;
+	height: 90px;
+}
+.image-tab-home div[class="img-inner image-zoom-fade dark"] {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+ul[class="nav nav-line-bottom nav-uppercase nav-size-normal nav-center"] {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul[class="nav nav-line-bottom nav-uppercase nav-size-normal nav-center"] li {
+	width: calc(100% / 3 - 50px);
+	display: flex;
+	justify-content: center;
+}
+ul[class="nav nav-line-bottom nav-uppercase nav-size-normal nav-center"] li a {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+}
+.nav-column li.active>a, .nav-column li>a:hover, .nav-dropdown li.active>a, .nav-dropdown>li>a:hover, .nav-vertical-fly-out>li>a:hover, .nav>li.active>a, .nav>li.current>a, .nav>li>a.active, .nav>li>a.current, .nav>li>a:hover {
+	color: #FCAF17;
+}
+.nav-line-bottom>li.active>a:before, .nav-line-bottom>li:hover>a:before, .nav-line-grow>li.active>a:before, .nav-line-grow>li:hover>a:before, .nav-line>li.active>a:before, .nav-line>li:hover>a:before {
+	background-color: #FCAF17;
+}

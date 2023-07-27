@@ -1,0 +1,180 @@
+2023-07-27T07:09:41+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#12 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#13 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#14 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#15 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\yody\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\yody\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#18 {main}
+  thrown in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-07-27T07:09:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#12 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#13 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#14 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#15 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\yody\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\yody\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#18 {main}
+  thrown in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-07-27T07:10:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#12 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#13 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#14 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#15 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\yody\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\yody\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#18 {main}
+  thrown in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-07-27T07:10:20+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#12 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#13 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#14 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#15 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\yody\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\yody\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#18 {main}
+  thrown in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-07-27T07:10:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#12 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#13 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#14 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#15 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\yody\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\yody\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#18 {main}
+  thrown in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-07-27T07:11:13+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#12 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#13 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#14 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#15 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\yody\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\yody\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#18 {main}
+  thrown in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-07-27T07:13:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#12 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#13 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#14 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#15 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\yody\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\yody\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#18 {main}
+  thrown in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-07-27T07:13:59+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\xampp\htdocs\yody\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\yody\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\yody\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\xampp\htdocs\yody\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
